@@ -3,17 +3,23 @@
 \docType{data}
 \name{key_crop_yields}
 \alias{key_crop_yields}
-\title{Title}
+\title{key crop yields
+tbl_df
+tbl
+data.frame}
 \format{
-A data frame with 53940 rows and 10 variables:
+A data frame with 143825 rows and 5 variables:
 \describe{
-\item{price}{price, in US dollars}
-\item{carat}{weight of the diamond, in carats}
+\item{entity}{country}
+\item{code}{3 letter country code}
+\item{year}{year from 1961 to 2018}
+\item{crop}{the crops arwheat, rice, maize, soybeans, potatoes, beans, peas, cassava, barley, cocoa, and bananas)`}
+\item{tonnes_per_hectare}{produce of crop in tonnes per hectare}
 ...
 }
 }
 \source{
-\url{http://www.diamondse.info/}
+\url{'https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-09-01/key_crop_yields.csv'}
 }
 \usage{
 key_crop_yields
